@@ -1,5 +1,16 @@
-﻿# Google搜索的PageRank算法
-@[toc]
+﻿---
+layout:     post
+title:      Google搜索的PageRank算法
+subtitle:
+date:       2019-04-13
+author:     JoselynZhao
+header-img: img/post-bg-cook.jpg
+catalog: true
+tags:
+    - 算法
+---
+
+
 ## 背景和问题
 ### 搜索引擎工作流程
 1. 网页信息检索（录入关键字）
