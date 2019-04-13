@@ -109,3 +109,5 @@ friends: [
         href: "https://github.com/zhaojing1995"
     }
 ]
+
+theme: jekyll-theme-cayman
