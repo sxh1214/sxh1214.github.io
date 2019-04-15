@@ -40,7 +40,7 @@ header-img: "img/tag-bg.jpg"
 			{% for tag in site.tags %}
 			<div class="one-tag-list">
 			  	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
-                    <span class="tag-text">{{ tag[0] }}</span>
+                    <span class="tag-text" style="font: 26px;">{{ tag[0] }}</span>
                 </span>
 				{% for post in tag[1] %}
 				  <!-- <li class="listing-item">
@@ -61,7 +61,7 @@ header-img: "img/tag-bg.jpg"
            				 {{ post.content | strip_html | truncate:200 }}
         				</div>
 				    </a>
-				    <p class="post-meta">
+				    <p class="post-meta" style="margin-top: 15px; position: relative;">
        				 Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
    					 </p>
 				</div>
