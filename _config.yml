@@ -120,10 +120,11 @@ friends: [
     },{
         title: "zpainter",
         href: "https://blog.csdn.net/zpainter/"
-    },{
-        title: "zhaoyuyu_nudt",
-        href: "https://me.csdn.net/yinxian9019"
     }
+#     ,{
+#         title: "zhaoyuyu_nudt",
+#         href: "https://me.csdn.net/yinxian9019"
+#     }
 ]
 
 theme: jekyll-theme-cayman
