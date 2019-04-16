@@ -100,14 +100,29 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "CSDN",
+        title: "CSDN·Joselynzhao",
         href: "https://blog.csdn.net/NGUever15"
     },{
-        title: "简书",
+        title: "简书·_SummerTree",
         href: "https://www.jianshu.com/u/4ce1c18ec636"
     },{
-        title: "Github",
+        title: "Github·JoselynZhao",
         href: "https://github.com/zhaojing1995"
+    },{
+        title: "yuuzhao",
+        href:" http://yuuzhao.top"
+    },{
+        title: "littleOrange",
+        href: "https://littleorange.site/"
+    },{
+        title: "yuabcxiao",
+        href: "https://blog.csdn.net/yuabcxiao/"
+    },{
+        title: "zpainter",
+        href: "https://blog.csdn.net/zpainter/"
+    },{
+        title: "zhaoyuyu_nudt",
+        href: "https://me.csdn.net/yinxian9019"
     }
 ]
 
