@@ -1,4 +1,4 @@
-﻿---
+---
 layout:     post
 title:      Progressive Learning for Person Re-ID
 subtitle:   with One Example Methods
