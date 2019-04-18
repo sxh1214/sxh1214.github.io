@@ -1,4 +1,4 @@
-﻿---
+---
 layout:     post
 title:      A Survey of Zero-Shot Learning
 subtitle:   Settings, Methods, and Applications
