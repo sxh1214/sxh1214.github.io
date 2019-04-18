@@ -12,7 +12,6 @@ tags:
     - Re-ID
 ---
 
-@[toc](Progressive Learning for Person Re-Identification with One Example)
 # 导言
 > 这篇文章是Yu Wu在继[Exploit the Unknown Gradually: One-Shot Video-Based Person Re-Identification by Stepwise Learning(EUG)](https://blog.csdn.net/NGUever15/article/details/88930864)之后发表的一篇文章，文中工作基于EUG进行，对其进行进行了优化。建议阅读本文之前先阅读EUG对工作内容有初步了解，本博文也针对Progressive Learning这篇论文相对了EUG的不同点来进行讲解。
 
