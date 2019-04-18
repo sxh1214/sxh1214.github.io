@@ -4,7 +4,7 @@ title:      Progressive Learning for Person Re-ID
 subtitle:   with One Example Methods
 date:       2019-04-18
 author:     JoselynZhao
-header-img: img/post-bg-coffee.jpg
+header-img: img/post-bg-desk.jpg
 catalog: true
 tags:
     - one-shot
