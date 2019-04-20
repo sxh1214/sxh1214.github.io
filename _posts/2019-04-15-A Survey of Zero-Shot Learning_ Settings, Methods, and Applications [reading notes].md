@@ -11,18 +11,6 @@ tags:
     - SSL
 ---
 
-formula1: $$n==x$$
-
-formula2: $$n!=x$$
-
-formula3: (m==y)
-
-formula4: [m!=y]
-
-formula5: \(k==z\)
-
-formula6: \[k!=z\]
-
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190310090023425.png)
 Zero-shot learning is a powerful and promising learning paradigm, in which the classes covered by training instances and the classes we aim to classify are disjoint. 
 
