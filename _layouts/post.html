@@ -62,7 +62,9 @@ layout: default
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 post-container">
-
+                {% comment %} if page.music {% endcomment %}
+                <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" style="margin-left: -10px;" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=137473&auto=1&height=32"></iframe>
+                {% comment %} endif {% endcomment %}
 				{{ content }}
 
                 <hr style="visibility: hidden;">
@@ -130,7 +132,7 @@ layout: default
                 sidebar-container
                 catalog-container">
                 <div class="side-catalog">
-                    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" style="margin-left: -10px;" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=137473&auto=1&height=32"></iframe>
+
                     <hr class="hidden-sm hidden-xs">
                     <h5>
                         <a class="catalog-toggle" href="#">CATALOG</a>
