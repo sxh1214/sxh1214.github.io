@@ -9,6 +9,7 @@ catalog: true
 tags:
     - Deep Learning
     - Python
+    - TensorFlow
 ---
 
 # tensorFlow 基础：概念与编程模型
