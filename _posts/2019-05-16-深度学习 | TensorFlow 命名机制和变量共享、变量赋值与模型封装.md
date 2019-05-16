@@ -1,4 +1,17 @@
-﻿@[toc](TensorFlow 命名机制和变量共享、变量赋值与模型封装)
+﻿---
+layout:     post
+title:      深度学习 | TensorFlow 命名、变量、封装
+subtitle:   TensorFlow 命名机制和变量共享、变量赋值和更新、模型封装
+date:       2019-05-16
+author:     JoselynZhao
+header-img: img/post-bg-os-metro.jpg
+catalog: true
+tags:
+    - Deep Learning
+    - Python
+    - TensorFlow
+---
+
 # 命名机制与变量共享
 Variable 变量 (一般表达参数)、Tensor(操 作输出)、操作 Operation、Placeholder 输 入都有名字
 

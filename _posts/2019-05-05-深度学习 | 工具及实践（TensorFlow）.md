@@ -2,7 +2,7 @@
 layout:     post
 title:      深度学习 | 工具及实践（TensorFlow）
 subtitle:   TensorFlow编程框架、Graph、存储ckpt/PB、Eager Executon
-date:       2019-04-22
+date:       2019-05-05
 author:     JoselynZhao
 header-img: img/post-bg-os-metro.jpg
 catalog: true
