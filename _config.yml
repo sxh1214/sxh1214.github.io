@@ -115,9 +115,10 @@ friends: [
     ,{
         title: "CSDN·zhaoyuyu_nudt",
         href: "https://me.csdn.net/yinxian9019"
-    },{
-      title:"陈帝羲 chen-dixi",
-      href:"https://chen-dixi.github.io/"
+    },
+    {
+        title:  "chen-dixi",
+        href: "https://chen-dixi.github.io/"
     }
 ]
 
