@@ -25,6 +25,17 @@
                                 </a>
                             </li>
                     {% endif %}
+                    <!-- add quanminkge_username add target = "_blank" to <a> by BY -->
+                    {% if site.quanminkge_username %}
+                            <li>
+                                <a target="_blank" href="https://node.kg.qq.com/personal?uid={{ site.quanminkge_username }}">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa  fa-stack-1x fa-inverse">K</i>
+                                    </span>
+                                </a>
+                            </li>
+                    {% endif %}
                     <!-- add csdn add target = "_blank" to <a> by BY -->
                     {% if site.csdn_username %}
                             <li>
