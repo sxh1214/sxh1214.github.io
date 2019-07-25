@@ -1,7 +1,7 @@
-﻿---
+---
 layout:     post
-title:      深度学习 | TensorFlow Slim介绍
-subtitle:   TensorFlow Slim简介、模型定义、模型训练
+title:      深度学习 | TensorFlow 可视化
+subtitle:   使用tensorboard查看深度神经网络的内部细节
 date:       2019-05-21
 author:     JoselynZhao
 header-img: img/post-bg-os-metro.jpg
