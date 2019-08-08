@@ -1,7 +1,15 @@
-﻿[论文连接](https://www.sciencedirect.com/science/article/pii/S0031320319302377?via%3Dihub#absh001) 
-
-@[toc](Improving person re-identiﬁcation by attribute and identity learning)
-
+﻿---
+layout:     post
+title:      Improving person re-identiﬁcation by attribute and identity learning
+subtitle:   Reading notes
+date:       2019-08-04
+author:     JoselynZhao
+header-img: img/post-bg-coffee.jpeg
+catalog: true
+tags:
+    - Re-ID
+---
+[论文连接](https://www.sciencedirect.com/science/article/pii/S0031320319302377?via%3Dihub#absh001)
 
 # Abstract
 ## 研究现状 
