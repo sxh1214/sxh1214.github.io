@@ -11,7 +11,7 @@ tags:
     - Computer Vision
 ---
 
-@[toc](Generation Tasks)
+
 # Improved GAN
 如何从语言描述的场景来生成图像
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190808103312108.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05HVWV2ZXIxNQ==,size_16,color_FFFFFF,t_70)

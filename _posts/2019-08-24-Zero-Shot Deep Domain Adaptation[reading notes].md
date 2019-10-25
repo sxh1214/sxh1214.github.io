@@ -1,6 +1,6 @@
 ﻿---
 layout:     post
-title:      ZDDA : Zero-Shot Deep Domain Adaptation
+title:      Zero-Shot Deep Domain Adaptation
 subtitle:   
 date:       2019-08-24
 author:     JoselynZhao
