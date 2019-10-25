@@ -1,7 +1,7 @@
 ﻿---
 layout:     post
-title:      Weakly Supervised Classification: Towards Accurate Machine Learning with Low Labeling Costs
-subtitle:   Masashi Sugiyama:弱监督机器学习研究进展
+title:      Weakly Supervised Classification | Towards Accurate Machine Learning with Low Labeling Costs
+subtitle:   Masashi Sugiyama | 弱监督机器学习研究进展
 date:       2019-10-24
 author:     JoselynZhao
 header-img: img/post-bg-cook.jpg

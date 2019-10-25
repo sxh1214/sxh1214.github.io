@@ -1,6 +1,6 @@
 ﻿---
 layout:     post
-title:      ZstGAN: An Adversarial Approach forUnsupervised Zero-Shot Image-to-Image Translation
+title:      ZstGAN | An Adversarial Approach forUnsupervised Zero-Shot Image-to-Image Translation
 subtitle:   
 date:       2019-10-24
 author:     JoselynZhao
