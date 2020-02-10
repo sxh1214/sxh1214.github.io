@@ -13,7 +13,7 @@ tags:
 
 ---
 
-[GitHub源码](https://github.com/zhaojing1995/DeepLearning.Advanceing/tree/master/DL-2/workd)
+[GitHub源码](https://github.com/joselynzhao/DeepLearning.Advanceing/tree/master/DL-2/workd)
 ## 要求 
 假设有函数y = cos(ax + b), 其中a为学号前两位，b为学号最后两位。首先从此函数中以相同步长（点与点之间在x轴上距离相同），在0<(ax+b)<2pi范围内，采样出2000个点，然后利用采样的2000个点作为特征点进行三次函数拟合(三次函数形式为 y = w1 * x + w2 * x^2 + w3 * x^3 + b, 其中wi为可训练的权值，b为可训练的偏置值，x和y为输入的训练数据 ) 。要求使用TensorFlow实现三次函数拟合的全部流程。拟合完成后，分别使用ckpt模式和PB模式保存拟合的模型。然后，针对两种模型存储方式分别编写恢复模型的程序。两个模型恢复程序分别使用ckpt模式和PB模式恢复模型，并将恢复的模型参数（wi和b）打印在屏幕上，同时绘制图像（图像包括所有的2000个采样点及拟合的函数曲线）。
 

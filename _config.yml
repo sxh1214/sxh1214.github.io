@@ -7,7 +7,7 @@ description: "Every failure is leading towards success."
 keyword: "夏木, 夏青, 夏木青, JoselynZhao, 夏木青Joselynzhao, summertree, summer tree is green, joselyn"
 url: "http://zhaojing1995.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/zhaojing1995/zhaojing1995.github.io.git" # you code repository
+github_repo: "https://github.com/joselynzhao/zhaojing1995.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -67,7 +67,7 @@ gitalk:
   clientID: 12bf2112b3dccc1e41a9                          #生成的clientID
   clientSecret: e04aef30eeb11d1918e24d1b88c7cb9d6c05fa82    #生成的clientSecret
   repo: zhaojing1995.github.io    #仓库名称
-  owner: zhaojing1995    #github用户名
+  owner: joselynzhao    #github用户名
   admin: JoselynZhao
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 

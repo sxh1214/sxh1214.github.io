@@ -12,7 +12,7 @@ tags:
     - TensorFlow
 
 ---
-[Github源码](https://github.com/zhaojing1995/DeepLearning.Advanceing/tree/master/DL_4/work)
+[Github源码](https://github.com/joselynzhao/DeepLearning.Advanceing/tree/master/DL_4/work)
 ## 要求
 将LENET封装为class，并用此封装好的lenet对minist进行分类。
 

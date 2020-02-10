@@ -798,4 +798,4 @@ a = a.cpu() # copies tensor back to CPU
 
 
 # 源码
- [https://github.com/zhaojing1995/DeepLearning.Advanceing/tree/master/DL-2](https://github.com/zhaojing1995/DeepLearning.Advanceing/tree/master/DL-2)
+ [https://github.com/joselynzhao/DeepLearning.Advanceing/tree/master/DL-2](https://github.com/joselynzhao/DeepLearning.Advanceing/tree/master/DL-2)

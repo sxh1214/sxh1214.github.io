@@ -14,7 +14,7 @@ tags:
 
 ---
 
-[Github源码](https://github.com/zhaojing1995/DeepLearning.Advanceing/tree/master/DL_6/work)
+[Github源码](https://github.com/joselynzhao/DeepLearning.Advanceing/tree/master/DL_6/work)
 ## 要求
 卷积可视化：
 
