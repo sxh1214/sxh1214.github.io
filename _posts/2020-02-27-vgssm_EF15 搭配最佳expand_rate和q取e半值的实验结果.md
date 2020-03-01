@@ -23,7 +23,6 @@ python3.6 vcf03.py --exp_name vgssm_EF15 --exp_order 0 --EF 15  --dataset mars -
 ```
 - 实验结果保存在 vgssm_EF15/0目录下
 - baseline性能如下
-![image](http://note.youdao.com/yws/res/48074/4F08C6E38B9A43099BB8336D313E6884)
 ![image](http://note.youdao.com/yws/public/resource/0b969242ea3c48fbaaa18f9f9d222f23/FE239AD35E354E14BD452E2971535AFA?ynotemdtimestamp=1583034128243)
 
 
