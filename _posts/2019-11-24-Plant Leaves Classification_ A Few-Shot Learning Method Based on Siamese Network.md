@@ -1,7 +1,7 @@
 ﻿---
 layout:     post
-title:      Plant Leaves Classification: A Few-Shot Learning Method Based on Siamese Network
-subtitle:
+title:      Plant Leaves Classification
+subtitle:   A Few-Shot Learning Method Based on Siamese Network
 date:       2019-11-24
 author:     JoselynZhao
 header-img: img/post-bg-coffee.jpeg
@@ -13,8 +13,6 @@ tags:
     - Computer Vision
 ---
 
-@[toc](The article directories)
-****
 # Abstract
 
 In this paper, a few-shot learning method based on the **Siamese network framework** isproposed to solve a leaf classiﬁcation problem with a small sample size.
