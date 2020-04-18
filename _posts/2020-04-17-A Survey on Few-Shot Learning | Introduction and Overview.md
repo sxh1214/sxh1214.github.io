@@ -73,7 +73,7 @@ In order to **learn from a limited number of examples with supervised informatio
 - 我们在问题设置，技术，应用和理论方面为FSL提出了有希望的未来方向。这些见解基于FSL当前发展的弱点，并可能在将来进行改进。
 
 ##  01. 2 Notation and Terminology
-Consider a learning task $T$, FSL deals with a data set $D = \left\{D_{train},D_{test}\right\}$ consisting of a training set $D_{train} = \left\{(x_i,y_i)\right\}_{i=1}^I$ whereI $I$ is small,and a testing set $D_{test} = \left\{x_{test}\right\}$. Letp(x,y) be the ground-truth joint probability distribution(联合概率分布) of input x and output y, and $\hat{y}$ be the optimal hypothesis from x to y.   FSL learns to discover $\hat{y}$ by fitting $D_{trian}$ and testing on $D_{test}$.  θ denotes all the parameters used by h. 
+Consider a learning task $T$, FSL deals with a data set $$D = \left\{D_{train},D_{test}\right\}$$ consisting of a training set $D_{train} = \left\{(x_i,y_i)\right\}_{i=1}^I$ whereI $I$ is small,and a testing set $D_{test} = \left\{x_{test}\right\}$. Letp(x,y) be the ground-truth joint probability distribution(联合概率分布) of input x and output y, and $\hat{y}$ be the optimal hypothesis from x to y.   FSL learns to discover $\hat{y}$ by fitting $D_{trian}$ and testing on $D_{test}$.  θ denotes all the parameters used by h.
 
 A FSL algorithm is an optimization strategy that searches H in order to find the θ that parameterizes the best h*. The FSL performance is measured by a loss function $l(\hat{y},y)$ defined over the prediction $\hat{y}= h(x;θ)$ and the observed output y.
 
