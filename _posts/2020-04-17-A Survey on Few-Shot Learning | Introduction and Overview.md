@@ -134,7 +134,8 @@ It can be used in applications such as **cross-domain recommendation**, **WiFi l
 **Domain adaptation** [11] is a type of transfer learning in which the source/target tasks are the same but the source/target domains are different. 
 **example：**
 >in sentiment analysis, the source domain data contains customer comments on movies, while the target domain data contains customer comments on daily goods. 
-### Meta-learning [59] 
+
+### Meta-learning [59]
 Meta-learning [59] improves P of the new task T by the provided data set and the meta- knowledge extracted across tasks by a meta-learner.  Specifically, the meta-learner gradually learns generic information (meta-knowledge) across tasks, and the learner generalizes the meta-learner for a new task T using task-specific information.
 
 the meta-learner is taken as prior knowledge to guide each specific FSL task.
