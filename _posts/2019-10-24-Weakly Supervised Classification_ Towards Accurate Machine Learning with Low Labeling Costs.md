@@ -27,7 +27,7 @@ Title： Weakly Supervised Classification: Towards Accurate Machine Learning wit
 首先还是要去关注一个最简单的问题，就是**二元分类的问题。**
 ## 监督分类
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191024111512684.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05HVWV2ZXIxNQ==,size_16,color_FFFFFF,t_70)
-Optimal convergence rate： $O(n^{-1/2})$
+Optimal convergence rate： $$O(n^{-1/2})$$
 
 我们希望也能够对**无标注数据进行分类**，这就是**无监督分类**的由来。
 

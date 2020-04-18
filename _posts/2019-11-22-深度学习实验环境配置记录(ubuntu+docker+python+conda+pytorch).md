@@ -29,7 +29,7 @@ tags:
 - 添加Docker官方的GPG密钥：
  `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -`
 - 使用下面的命令来设置stable存储库：
- `sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"`
+ `sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $$(lsb_release -cs) stable"`
 - 再更新一下apt包索引：
  `sudo apt-get update`
 - 安装最新版本的Docker CE：
