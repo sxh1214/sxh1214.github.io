@@ -17,7 +17,7 @@ tags:
 > LIONEL M. NI, Hong Kong University of Science and Technology
 > 
 
-$$y = \sum_{i=0}^Nx_i y_i$$
+
 
 机器学习在数据密集型应用程序中非常成功，但是在数据集较小时通常会受到阻碍。近来，提出了“少量学习”（FSL）来解决这个问题。使用现有知识，FSL可以快速推广到仅包含少量带有监督信息的样本的新任务。
 在本文中，我们进行了彻底的调查，以全面了解FSL。从FSL的正式定义开始，我们将FSL与几个相关的机器学习问题区分开来。然后，我们指出FSL的核心问题是经验风险最小化工具不可靠。根据如何使用先验知识来处理此核心问题，我们从三个角度对FSL方法进行了分类：
@@ -73,9 +73,9 @@ In order to **learn from a limited number of examples with supervised informatio
 - 我们在问题设置，技术，应用和理论方面为FSL提出了有希望的未来方向。这些见解基于FSL当前发展的弱点，并可能在将来进行改进。
 
 ##  01. 2 Notation and Terminology
-Consider a learning task $T$, FSL deals with a data set $$D = \left\{D_{train},D_{test}\right\}$$ consisting of a training set $D_{train} = \left\{(x_i,y_i)\right\}_{i=1}^I$ whereI $I$ is small,and a testing set $D_{test} = \left\{x_{test}\right\}$. Letp(x,y) be the ground-truth joint probability distribution(联合概率分布) of input x and output y, and $\hat{y}$ be the optimal hypothesis from x to y.   FSL learns to discover $\hat{y}$ by fitting $D_{trian}$ and testing on $D_{test}$.  θ denotes all the parameters used by h.
+Consider a learning task $$T$$, FSL deals with a data set $$D = \left\{D_{train},D_{test}\right\}$$ consisting of a training set $$D_{train} = \left\{(x_i,y_i)\right\}_{i=1}^I$$ whereI $$I$$ is small,and a testing set $$D_{test} = \left\{x_{test}\right\}$$. Letp(x,y) be the ground-truth joint probability distribution(联合概率分布) of input x and output y, and $$\hat{y}$$ be the optimal hypothesis from x to y.   FSL learns to discover $$\hat{y}$$ by fitting $$D_{trian}$$ and testing on $$D_{test}$$.  θ denotes all the parameters used by h.
 
-A FSL algorithm is an optimization strategy that searches H in order to find the θ that parameterizes the best h*. The FSL performance is measured by a loss function $l(\hat{y},y)$ defined over the prediction $\hat{y}= h(x;θ)$ and the observed output y.
+A FSL algorithm is an optimization strategy that searches H in order to find the θ that parameterizes the best h*. The FSL performance is measured by a loss function $$l(\hat{y},y)$$ defined over the prediction $$\hat{y}= h(x;θ)$$ and the observed output y.
 
 # 02 Overview
 ## 02.1 Problem definition
@@ -86,7 +86,7 @@ A computer program is said to learn from experience E with respect to some class
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200413211239739.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05HVWV2ZXIxNQ==,size_16,color_FFFFFF,t_70)
 
-FSL is a special case of machine learning, which targets at obtaining good learning performance given limited supervised information provided in the training set $D_{train}$.
+FSL is a special case of machine learning, which targets at obtaining good learning performance given limited supervised information provided in the training set $$D_{train}$$.
 
 ### The definition of FSL
 Few-Shot Learning (FSL) is a type of machine learning problems (specified by E, T and P), where E contains only a limited number of examples with supervised information for the target T .
@@ -98,10 +98,10 @@ Few-Shot Learning (FSL) is a type of machine learning problems (specified by E, 
 - object recognition [35].
 
 ### N-way-K-shot classification[37,138]
-$D_{train}$ contains I = KN examples from N classes each with K examples. 
+$$D_{train}$$ contains I = KN examples from N classes each with K examples. 
 
 ### Few-shot regression [37, 156] 
-estimates a regression function h given only a few input-output example pairs sampled from that function, where output $y_i$ is the observed value of the dependent variable y, and $x_i$ is the input which records the observed value of the independent variable x.
+estimates a regression function h given only a few input-output example pairs sampled from that function, where output $$y_i$$ is the observed value of the dependent variable y, and $$x_i$$ is the input which records the observed value of the independent variable x.
 ### few-shot reinforcement learning [3, 33]
 targets at finding a policy given only a few trajectories consisting of state-action pairs.
 
@@ -112,7 +112,7 @@ targets at finding a policy given only a few trajectories consisting of state-ac
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200413212536351.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05HVWV2ZXIxNQ==,size_16,color_FFFFFF,t_70)
 
-One typical type of FSL methods is **Bayesian learning** [35, 76]. It combines the provided training set $D_{train}$ with some prior probability distribution which is available before $D_{train}$ is given [15].
+One typical type of FSL methods is **Bayesian learning** [35, 76]. It combines the provided training set $$D_{train}$$ with some prior probability distribution which is available before $$D_{train}$$ is given [15].
 
 When there is only one example with supervised information in E,FSL is called **one-shot learning** [14, 35, 138]. When E does not contain any example with supervised information for the target T , FSL becomes a **zero-shot learning** problem (ZSL) [78]. 
 >ZSL requires E to contain information from other modalities(形式) (such as attributes, WordNet, and word embeddings used in rare object recognition tasks), so as to transfer some supervised information and make learning possible.
@@ -147,9 +147,9 @@ we illustrate the core issue of FSL based on error decomposition（分解） in 
 ### 02.3.1 Empirical Risk Minimization.
 Given a hypothesis h, we want to minimize its expected risk R, which is the loss measured with respect to p(x,y). Specifically,
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200417191143352.png)
-因为p(x,y)是未知的， the empirical risk（训练集$D_{train}$的I个样本的平均loss）表达如下：
+因为p(x,y)是未知的， the empirical risk（训练集$$D_{train}$$的I个样本的平均loss）表达如下：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200417191350139.png)
-The empirical risk 通常被用作$R(h)$的proxy，可以使得empirical risk minimization.(可能有一些正则化)
+The empirical risk 通常被用作$$R(h)$$的proxy，可以使得empirical risk minimization.(可能有一些正则化)
 
 为了更好的说明，我们规定：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200417191811476.png)
@@ -160,22 +160,22 @@ The empirical risk 通常被用作$R(h)$的proxy，可以使得empirical risk mi
 总的来说，the total error 收到H（hypothesis space）和I（训练集中样本的数量）的影响，也就是说，想要减少total error，可以从三个方面下手：
 - data
 - model， which determines H
-- algorithm，which 搜索满足data的最优$h_I$
+- algorithm，which 搜索满足data的最优$$h_I$$
 
 
 ### 02.3.2 Unreliable Empirical Risk Minimizer. 
 estimation error 可以通过增加样本量来减少[17,18,41]。所以，当有充足的训练监督信息数据的时候，estimation error 很小。
 
 **this is the core issue of FSL supervised learning**：
-the empirical risk minimizer $h_I$ is no longer reliable. 
+the empirical risk minimizer $$h_I$$ is no longer reliable. 
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200417194127709.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05HVWV2ZXIxNQ==,size_16,color_FFFFFF,t_70)
 
 ## 02.4 Taxonomy
-为了缓解在FSL监督学习中具有不可靠的经验风险最小化工具$h_I$的问题，必须使用先验知识。基于使用先验知识对哪个方面进行了增强，可以将现有的FSL作品分为以下几个方面（图2）。
+为了缓解在FSL监督学习中具有不可靠的经验风险最小化工具$$h_I$$的问题，必须使用先验知识。基于使用先验知识对哪个方面进行了增强，可以将现有的FSL作品分为以下几个方面（图2）。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200417194541125.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05HVWV2ZXIxNQ==,size_16,color_FFFFFF,t_70)
 - Data. 这种方法是利用先验知识来增强训练集，扩大I的数量。 使得在这种情况下，标准的机器学习模型和算法可以被使用。
-- Model。 这种方式是利用先验知识来约束假设空间的复杂性，使得假设空间变小。在这种情况下，训练集足够去学习一个可靠的$h_I$.
-- Algorithm.  这种方法使用先验知识来搜索$\theta$,$\theta$ 参数化最佳的h。 先验知识通过提供良好的初始化（图2（c）中的灰色三角形）或指导搜索步骤（图2（b）中的灰色虚线）来更改搜索策略。 对于后者，最终的搜索步骤受先验知识和经验风险最小化因素的影响。
+- Model。 这种方式是利用先验知识来约束假设空间的复杂性，使得假设空间变小。在这种情况下，训练集足够去学习一个可靠的$$h_I$$.
+- Algorithm.  这种方法使用先验知识来搜索$$\theta$$,$$\theta$$ 参数化最佳的h。 先验知识通过提供良好的初始化（图2（c）中的灰色三角形）或指导搜索步骤（图2（b）中的灰色虚线）来更改搜索策略。 对于后者，最终的搜索步骤受先验知识和经验风险最小化因素的影响。
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200417202639180.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05HVWV2ZXIxNQ==,size_16,color_FFFFFF,t_70)
