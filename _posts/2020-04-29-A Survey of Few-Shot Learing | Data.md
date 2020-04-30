@@ -11,7 +11,6 @@ tags:
     - few-shot
 ---
 
-上一篇：[A Survey on Few-Shot Learning | Introduction and Overview](https://blog.csdn.net/NGUever15/article/details/105495735)
 
 本节中的FSL方法使用先验知识来增强数据$D_{train}$，从而丰富了E中的监督信息。（图4）。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200429151601788.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05HVWV2ZXIxNQ==,size_16,color_FFFFFF,t_70)
