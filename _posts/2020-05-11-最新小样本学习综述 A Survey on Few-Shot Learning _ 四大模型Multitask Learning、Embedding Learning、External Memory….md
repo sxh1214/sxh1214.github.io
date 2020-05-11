@@ -99,7 +99,8 @@ surprise-based 存储模块[104]仅在其不能很好地表示$$x_i$$时更新M�
 
 # 04 Generative Modeling
 
-生成建模方法借助先验知识(图10)从观测到的$$x_i$$估计概率分布$$p(x)$$。$$p(x)$$的估计通常涉及$$p(x | y)$$和$$p(y)$$的估计。 此类中的方法可以处理许多任务，例如生成[34、76、107、109]，识别[34、35、47、76、113、129、159]，重构[47]和图像翻转[107] ]。
+生成建模方法借助先验知识(图10)从观测到的$$x_i$$估计概率分布$$p(x)$$。$$p(x)$$的估计通常涉及$$p(x|y)$$和$$p(y)$$的估计。
+此类中的方法可以处理许多任务，例如生成[34、76、107、109]，识别[34、35、47、76、113、129、159]，重构[47]和图像翻转[107]。
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2020051109093414.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05HVWV2ZXIxNQ==,size_16,color_FFFFFF,t_70)
 
