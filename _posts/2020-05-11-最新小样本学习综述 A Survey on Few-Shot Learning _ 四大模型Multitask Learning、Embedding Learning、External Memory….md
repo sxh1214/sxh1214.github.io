@@ -61,7 +61,7 @@ Task-specific embedding methods 通过仅使用来自该任务的信息为每个
 
 一个早期的尝试[127]从{Dc}中学习了一个线性嵌入。 最近，一个更加复杂的task-invariant 嵌入模型通过meta-learning 方法学习得出。
 **(1) Matching Nets[138] and its variants[4,8,24]**
-Matching Nets 为训练样本$$x_i$$和测试样本$$x_{test]$$元学习了不同的嵌入函数(f and g)。The residual LSTM(resLSTM)[4] 为f和g提出了更好的设计。Matching Nets的一个主动学习变体[8] 添加了一个样本选择步骤，用来标记最好的无标签样本以此来增强$$D_{train}$$. Matching Nets也扩展到了Set-to-Set匹配[24]，这在标记样本的多个部分时很有用。
+Matching Nets 为训练样本$$x_i$$和测试样本$$x_{test}$$元学习了不同的嵌入函数(f and g)。The residual LSTM(resLSTM)[4] 为f和g提出了更好的设计。Matching Nets的一个主动学习变体[8] 添加了一个样本选择步骤，用来标记最好的无标签样本以此来增强$$D_{train}$$. Matching Nets也扩展到了Set-to-Set匹配[24]，这在标记样本的多个部分时很有用。
 **(2)Prototypical Networks (ProtoNet) [121] and its variants [100, 108, 141]**
 ProtoNet[121]只比较$$f(x_{test})$$和类训练集中的类原形。对类n，其原型由如下公式计算得出：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200430212146920.png)
@@ -99,7 +99,7 @@ surprise-based 存储模块[104]仅在其不能很好地表示$$x_i$$时更新M�
 
 # 04 Generative Modeling
 
-生成建模方法借助先验知识(图10)从观测到的$$x_i$$估计概率分布$$p(x)$$。$$p(x)$$的估计通常涉及$$p(x|y)$$和$$p(y)$$的估计。
+生成建模方法借助先验知识(图10)从观测到的$$x_i$$估计概率分布$$p(x)$$。$$p(x)$$的估计通常涉及$$p(x\|y)$$和$$p(y)$$的估计。
 此类中的方法可以处理许多任务，例如生成[34、76、107、109]，识别[34、35、47、76、113、129、159]，重构[47]和图像翻转[107]。
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2020051109093414.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05HVWV2ZXIxNQ==,size_16,color_FFFFFF,t_70)
