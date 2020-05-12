@@ -12,7 +12,7 @@ tags:
 ---
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200512085720280.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05HVWV2ZXIxNQ==,size_16,color_FFFFFF,t_70)
-@[toc]
+
 # Probabilistic Graphical Models
 ##  Statistical and Algorithmic Foundations of Deep Learning
 > Author: Eric Xing
@@ -24,7 +24,8 @@ tags:
 上游细胞通过轴突(Axon)将神经递质传送给下游细胞的树突。 人工智能受到该原理的启发，是按照下图来构造人工神经元(或者是感知器)的。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200512092603372.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05HVWV2ZXIxNQ==,size_16,color_FFFFFF,t_70)
 类似的，生物神经网络 —— > 人工神经网络
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2020051209264072.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05HVWV2ZXIxNQ==,size_16,color_FFFFFF,t_70Reverse-mode automatic differentiation (aka backpropagation)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2020051209264072.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05HVWV2ZXIxNQ==,size_16,color_FFFFFF,t_70)
+Reverse-mode automatic differentiation (aka backpropagation)
 
 ### Reverse-mode automatic differentiation (aka backpropagation)
 
