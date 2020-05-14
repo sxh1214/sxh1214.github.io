@@ -18,7 +18,6 @@ tags:
 >Introduction & overview of the key methods and developments.
 [Good starting point for you to start reading and understanding papers!]
 
-[toc]
 # Probabilistic Graphical Models | Elements of Meta-Learning
 ## 01 Intro to Meta-Learning
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200513071814958.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05HVWV2ZXIxNQ==,size_16,color_FFFFFF,t_70)
@@ -118,6 +117,8 @@ A few notable libraries that implement a few specific methods:
 	- Many hybrids, extensions, improvements (CAIVA, MetaSGD, ...)
 - Is it about adaptation or learning good representations? Still unclear and depends on the task; having good representations might be enough.
 - Meta-learning can be used as a mechanism for causal discovery.*因果发现* (See Bengio et al., 2019.)
+
+
 ## 02 Elements of Meta-RL
 ### What is meta-RL and why does it make sense?
 **Recall the definition of learning-to-learn**
