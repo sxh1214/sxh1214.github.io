@@ -1,31 +1,31 @@
 # Site settings
-title: Summer Tree is Cyan
-SEOTitle: 夏木青 | JoselynZhao Blog
+title: Welcome to philcher blog
+SEOTitle: 石子君 | Philcher Blog
 header-img: img/post-bg-desk.jpg
-email: zhaojing17@foxmail.com
+email: 2639349776@qq.com
 description: "Every failure is leading towards success."
-keyword: "夏木, 夏青, 夏木青, JoselynZhao, 夏木青Joselynzhao, summertree, summer tree is green, joselyn"
-url: "http://joselynzhao.github.io"          # your host, for absolute URL
+keyword: "石, 石子, 石子君, Philcher, 石子君Philcher, Welcome, Welcome to philcher blog, blog"
+url: "http://http://sxh1214.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/joselynzhao/joselynzhao.github.io.git" # you code repository
+github_repo: "https://github.com/sxh1214/sxh1214.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/Summertree.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/QQ图片20191110174649.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     5734466460
-zhihu_username:     zhao-jing-38-52
-github_username:    joselynzhao
-quanminkge_username: 649f9f862d2c328f33
-#facebook_username:  baiying.qiu.7
-jianshu_username:   4ce1c18ec636
-csdn_username:      NGUever15
-#twitter_username:   qiubaiying
+weibo_username:     shixiaohui666
+zhihu_username:     shi_xiao_hui
+github_username:    sxh1214
+#quanminkge_username: 649f9f862d2c328f33
+facebook_username:  sxh110
+jianshu_username:   7ce18cf553b3
+csdn_username:      qq_44333320
+twitter_username:   shi_xiao_hui
 
 
 
@@ -76,7 +76,7 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-#ba_track_id: b50bf2b12b5338a1845e33832976fd68
+ba_track_id: 7e1ac644b3a75f3205d168dc6d0e5ccc
 
 # Google Analytics
 # ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
@@ -101,34 +101,30 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "yuuzhao",
-        href: "http://yuuzhao.top"
+        title: "CSDN",
+        href: "https://blog.csdn.net/qq_44333320"
     },{
-        title: "littleOrange",
-        href: "https://littleorange.site/"
+        title: "简书",
+        href: "http://www.jianshu.com/u/7ce18cf553b3"
     },{
-        title: "yuabcxiao",
-        href: "https://blog.csdn.net/yuabcxiao/"
+        title: "知乎",
+        href: "https://www.zhihu.com/people/shi_xiao_hui"
     },{
-        title: "zpainter",
-        href: "https://blog.csdn.net/zpainter/"
+        title: "博客园",
+        href: "https://www.cnblogs.com/sxh1214/"
     }
     ,{
-        title: "zhaoyuyu_nudt",
-        href: "https://me.csdn.net/yinxian9019"
+        title: "微博",
+        href: "https://weibo.com/shixiaohui666"
     },
     {
-        title:  "chen-dixi",
-        href: "https://chen-dixi.github.io/"
+        title:  "twitter",
+        href: "https://twitter.com/shi_xiao_hui"
     },
     {
-       title: "红火恍惚",
-       href: "https://yml.red"
+       title: "facebook",
+       href: "https://www.facebook.com/sxh110"
     },
-    {
-       title: "Liam Huang",
-       href: "https://liam.page"
-    }
+    
 ]
-
 theme: jekyll-theme-cayman
